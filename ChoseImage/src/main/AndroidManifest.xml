@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <application>
+        <provider
+            android:name=".FishBunFileProvider"
+            android:authorities="${applicationId}.fishbunfileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".ui.album.ui.AlbumActivity"
+            android:label="@string/album"
+            android:theme="@style/FishBunTheme"/>
+        <activity
+            android:name=".ui.picker.PickerActivity"
+            android:theme="@style/FishBunTheme" />
+        <activity
+            android:name=".ui.detail.ui.DetailImageActivity"
+            android:theme="@style/DetailViewTheme" />
+    </application>
+</manifest>
