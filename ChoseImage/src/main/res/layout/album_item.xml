@@ -6,7 +6,7 @@
     android:background="#ffffff"
     android:orientation="horizontal">
 
-    <com.sangcomz.fishbun.util.SquareImageView
+    <com.example.choseimage.util.SquareImageView
         android:id="@+id/img_album_thumb"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

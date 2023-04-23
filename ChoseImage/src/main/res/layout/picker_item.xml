@@ -32,7 +32,7 @@
         app:layout_constraintRight_toRightOf="@id/img_thumb_image"
         app:layout_constraintTop_toTopOf="@id/img_thumb_image" />
 
-    <com.sangcomz.fishbun.util.RadioWithTextButton
+    <com.example.choseimage.util.RadioWithTextButton
         android:id="@+id/btn_thumb_count"
         android:layout_width="30dp"
         android:layout_height="30dp"

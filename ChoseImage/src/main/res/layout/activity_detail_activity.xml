@@ -29,7 +29,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <com.sangcomz.fishbun.util.RadioWithTextButton
+    <com.example.choseimage.util.RadioWithTextButton
         android:id="@+id/btn_detail_count"
         android:layout_width="30dp"
         android:layout_height="30dp"
